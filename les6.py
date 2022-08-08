@@ -8,3 +8,4 @@ if k == 27: # esc or q
     cv2.destroyAllWindows()
 elif k == ord('s'):
     cv2.imwrite('images/fiat-grey.jpg',img)
+    cv2.destroyAllWindows()
